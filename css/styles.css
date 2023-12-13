@@ -1,5 +1,6 @@
 @import './hiddenAnimation.css';
 @import './neonbutton.css';
+@import './scrollBar.css';
 /*
 =============== 
 Fonts
@@ -130,7 +131,9 @@ p {
   }
 }
 /*  global classes */
-
+.overflow-hidden {
+  overflow: hidden;
+}
 .btn {
   text-transform: uppercase;
   background: var(--clr-primary-5);
