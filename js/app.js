@@ -8,7 +8,6 @@ const date = document.querySelector('#date');
 // add fixed class to navbar
 const barContainer = document.querySelector('.bar-container');
 const x = navbar.getBoundingClientRect().height;
-console.log(x);
 
 window.addEventListener('scroll', function () {
   if (window.pageYOffset > 80) {

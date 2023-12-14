@@ -10,7 +10,7 @@
 get the max value of full height
 */
 let fullHeight = document.body.scrollHeight - window.innerHeight;
-console.log(fullHeight);
+
 const navbarH = document.querySelector('#nav');
 
 //now makea function
@@ -24,9 +24,6 @@ window.addEventListener('scroll', () => {
   let progress = Math.min((scroll / (fullHeight - navBarHeight)) * 100, 100);
 
   document.getElementById('bar').style.width = `${progress}%`;
-  console.log('Scroll:', scroll);
-  console.log('Full Height:', fullHeight);
-  console.log('Progress:', progress);
 });
 // navbar increases height, we need to minus it.
 //Math.min(,100) just makes sure we get out at 100
