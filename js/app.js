@@ -1,5 +1,6 @@
 import './hiddenAnimation.js';
 import './scrollBar.js';
+import './slider.js';
 const navbar = document.querySelector('#nav');
 const navBtn = document.querySelector('#nav-btn');
 const closeBtn = document.querySelector('#close-btn');
