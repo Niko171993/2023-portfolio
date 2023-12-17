@@ -4,6 +4,7 @@
 @import './animations.css';
 @import './leaves.css';
 @import './flipCard.css';
+@import './fade.css';
 /*
 =============== 
 Fonts
@@ -192,6 +193,13 @@ p {
   height: 15rem;
   object-fit: cover;
 }
+/* for animations */
+.entry-hidden {
+  visibility: hidden;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
 /*
 =============== 
 Navbar
