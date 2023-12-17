@@ -1,0 +1,12 @@
+#projects {
+  background: linear-gradient(
+      to bottom,
+      hsla(42, 78%, 60%, 0.5),
+      hsla(43, 86%, 17%, 0.7)
+    ),
+    url('../../images/sections/fall.jpg') center/cover no-repeat fixed;
+  color: white;
+}
+.projects-text {
+  color: white;
+}

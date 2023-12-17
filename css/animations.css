@@ -79,6 +79,6 @@
   }
 }
 .entry.active .visible {
-  animation: shows 3s ease-in-out;
+  animation: shows 1s ease-in-out;
   animation-fill-mode: forwards;
 }
