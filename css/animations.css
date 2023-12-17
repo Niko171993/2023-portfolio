@@ -1,25 +1,33 @@
 @keyframes moveInLeft {
   0% {
     transform: translateX(-1000px);
+    visibility: visible;
+    opacity: 0;
   }
 
   100% {
     transform: translateX(0px);
+    opacity: 1;
+    visibility: visible;
   }
 }
 @keyframes moveInRight {
   0% {
     transform: translateX(1000px);
+    visibility: visible;
     opacity: 0;
   }
   100% {
     transform: translateX(0px);
     opacity: 1;
+    visibility: visible;
   }
 }
 .entry.active .child-left {
   animation: moveInLeft 3s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .entry.active .child-right {
   animation: moveInRight 3s ease-in-out;
+  animation-fill-mode: forwards;
 }
