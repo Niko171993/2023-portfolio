@@ -1,0 +1,10 @@
+.service-back {
+  background: linear-gradient(hsl(45, 100%, 96%), hsl(42, 78%, 60%));
+}
+
+.service-back p {
+  padding-inline: 2.5rem;
+}
+.bg-gold h2 {
+  color: white;
+}

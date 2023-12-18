@@ -10,6 +10,8 @@
 @import './sections/about.css';
 @import './sections/vid.css';
 @import './sections/slider.css';
+@import './sections/services.css';
+@import './sections/cards.css';
 /*
 =============== 
 Fonts
@@ -198,6 +200,7 @@ p {
   height: 15rem;
   object-fit: cover;
 }
+
 /* for animations */
 .entry-hidden {
   visibility: hidden;
@@ -521,6 +524,7 @@ About
 Projects
 ===============
 */
+
 .projects-text {
   width: 85vw;
   max-width: 30rem;

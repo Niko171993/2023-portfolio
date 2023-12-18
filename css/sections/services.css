@@ -1,0 +1,12 @@
+.bg-gold {
+  background: linear-gradient(
+      to bottom,
+      hsla(42, 78%, 60%, 0.5),
+      hsla(43, 86%, 17%, 0.7)
+    ),
+    url('../../images/sections/fall.jpg') center/cover no-repeat fixed !important;
+  color: hsl(42, 78%, 60%);
+}
+.service p {
+  color: hsl(43, 86%, 17%);
+}
