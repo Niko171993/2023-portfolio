@@ -16,6 +16,7 @@
   margin: 0 auto;
   height: 300px;
   width: 300px;
+  overflow: hidden;
 }
 .slide {
   position: absolute;
