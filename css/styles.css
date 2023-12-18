@@ -12,6 +12,7 @@
 @import './sections/slider.css';
 @import './sections/services.css';
 @import './sections/cards.css';
+@import './sections/navbar.css';
 /*
 =============== 
 Fonts
@@ -276,7 +277,7 @@ Navbar
   /* justify-content:space-between */
   justify-self: flex-end;
 }
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 990px) {
   .nav {
     background: var(--clr-primary-10);
   }

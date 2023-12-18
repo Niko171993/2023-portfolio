@@ -1,0 +1,78 @@
+.nav-links a {
+  display: block;
+  position: relative;
+
+  line-height: 25px;
+  font-size: 20px;
+  text-align: center;
+
+  padding-block: 16px;
+  text-decoration: none;
+  color: #222;
+  margin: 0 10px;
+  transition: 0.5s;
+  padding: 0.5rem;
+}
+
+.nav-links span {
+  position: absolute;
+  transition: transform 0.5s;
+}
+
+.nav-links span:nth-child(1),
+.nav-links span:nth-child(3) {
+  width: 100%;
+  height: 1px;
+  background: red;
+}
+
+.nav-links span:nth-child(1) {
+  top: 0;
+  left: 0;
+  transform-origin: right;
+}
+.nav-links a:hover span:nth-child(1) {
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+
+.nav-links span:nth-child(3) {
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+}
+.nav-links a:hover span:nth-child(3) {
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+/* - horizontal - vertical lines  */
+.nav-links span:nth-child(2) {
+  width: 1px;
+  height: 100%;
+  background: red;
+  left: 0;
+  top: 0;
+  transform-origin: bottom;
+  transition: transform 0.5s;
+  transform: scaleY(0);
+}
+.nav-links a:hover span:nth-child(2) {
+  transform: scaleY(1);
+  transform-origin: top;
+}
+.nav-links span:nth-child(4) {
+  width: 1px;
+  height: 100%;
+  background: red;
+  right: 0;
+  top: 0;
+  transition: transform 0.5s;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+.nav-links a:hover span:nth-child(4) {
+  transform: scaleY(1);
+  transform-origin: bottom;
+}
