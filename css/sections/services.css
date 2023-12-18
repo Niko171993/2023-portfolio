@@ -1,9 +1,5 @@
 .bg-gold {
-  background: linear-gradient(
-    to bottom,
-    hsla(42, 78%, 60%, 0.5),
-    hsla(43, 86%, 17%, 0.7)
-  ) !important;
+  background: #222 !important;
   color: hsl(42, 78%, 60%);
 }
 .service p {
