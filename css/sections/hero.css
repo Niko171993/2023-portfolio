@@ -1,8 +1,10 @@
-#projects {
+.hero {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
     url('../../images/sections/fall.jpg') center/cover no-repeat fixed;
+}
+.hero-info {
   color: white;
 }
-.projects-text {
-  color: white;
+.hero-info h4 {
+  color: white !important;
 }

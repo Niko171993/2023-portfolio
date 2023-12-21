@@ -82,3 +82,18 @@
   animation: shows 1s ease-in-out;
   animation-fill-mode: forwards;
 }
+
+.backgrounda.active {
+  animation: backgrounda 1s ease-in-out !important;
+}
+@keyframes backgrounda {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    animation-fill-mode: forwards;
+  }
+}

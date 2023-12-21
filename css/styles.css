@@ -13,6 +13,8 @@
 @import './sections/services.css';
 @import './sections/cards.css';
 @import './sections/navbar.css';
+@import './sections/hero.css';
+@import './radiance.css';
 /*
 =============== 
 Fonts
@@ -420,9 +422,9 @@ Hero
   position: relative;
   z-index: 21;
 }
-.hero {
+/* .hero {
   background: var(--clr-primary-10);
-}
+} */
 .hero-center {
   min-height: calc(100vh - 5rem);
   display: grid;
@@ -476,9 +478,7 @@ About
 ===============
 */
 /* section title added to globals */
-.about {
-  background: red;
-}
+
 .about-title {
   text-align: left;
   margin-bottom: 2rem;
@@ -537,6 +537,8 @@ Projects
   background: var(--clr-primary-5);
   border-radius: var(--radius);
   margin-bottom: 2rem;
+  width: 100%;
+  height: 100%;
 }
 .project-info {
   text-align: center;
@@ -605,7 +607,7 @@ Projects
 @media screen and (min-width: 1170px) {
   .projects-center {
     grid-template-rows: 200px 200px;
-    gap: 1rem;
+    gap: 2rem;
     grid-template-areas:
       'a b b'
       'a c d';

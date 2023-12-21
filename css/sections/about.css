@@ -1,12 +1,8 @@
-#about-section {
-  background: linear-gradient(
-      to bottom,
-      hsla(42, 78%, 60%, 0.5),
-      hsla(43, 86%, 17%, 0.7)
-    ),
-    url('../../images/sections/fall.jpg') center/cover no-repeat fixed;
+.about-info p {
   color: white;
 }
-.about-info p {
+.about {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    url('../../images/sections/fall.jpg') center/cover no-repeat fixed;
   color: white;
 }
