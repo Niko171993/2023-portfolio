@@ -19,7 +19,6 @@
 and to give it a width thats not full size hes just using an aspect-ratio so that if he increases the height the width will go along with it. maintaining an aspect ratio
 */
 .glowing-card {
-  aspect-ratio: 1 / 1.5;
   border-radius: 0.5rem;
   position: relative;
 }

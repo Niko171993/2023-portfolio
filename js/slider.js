@@ -23,9 +23,7 @@ container.innerHTML = slides
     if (slideIndex === slides.length - 1) {
       position = 'last';
     }
-    if (slideIndex === 0) {
-      position = 'active';
-    }
+
     return `<article class="slide ${position}" >
   <img src=${img} class="slide-img" alt="${name}"/>
   <h4 class='slide-text'>${name}</h4>
