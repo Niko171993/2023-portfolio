@@ -258,6 +258,7 @@ Navbar
   -webkit-transition: var(--transition);
   transition: var(--transition);
   z-index: 30;
+  background: hsl(45, 100%, 96%);
 }
 .nav-center {
   width: 100%;
@@ -403,9 +404,6 @@ Hero
 ===============
 */
 .hero-info {
-  visibility: hidden;
-  opacity: 0;
-  animation-fill-mode: forwards;
   position: relative;
   z-index: 20;
 }
@@ -416,11 +414,13 @@ Hero
 }
 .hero-img {
   display: none;
-  visibility: hidden;
-  opacity: 0;
-  animation-fill-mode: forwards;
+
   position: relative;
   z-index: 21;
+}
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    url('../../images/sections/fall.jpg') center/cover no-repeat fixed;
 }
 /* .hero {
   background: var(--clr-primary-10);
@@ -493,14 +493,8 @@ About
 
 .about-img {
   justify-self: center;
-  visibility: hidden;
-  opacity: 0;
-  animation-fill-mode: forwards;
 }
 .about-info {
-  visibility: hidden;
-  opacity: 0;
-  animation-fill-mode: forwards;
 }
 .about .about-center {
   padding-block: 6rem;
@@ -640,6 +634,9 @@ Projects
 Connect
 ===============
 */
+body {
+  background: #222;
+}
 .connect {
   min-height: 40%;
   position: relative;
