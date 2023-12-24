@@ -1,10 +1,6 @@
 #timeline {
-  background: linear-gradient(
-      to bottom,
-      hsla(42, 78%, 60%, 1),
-      hsla(43, 86%, 17%, 0.5)
-    ),
-    url('../../images/sections/timeline.jpg') center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
+
   color: white;
 }
 #timeline p {

@@ -5,3 +5,31 @@
 .service p {
   color: hsl(43, 86%, 17%);
 }
+.technical-flex {
+  display: flex;
+  flex-direction: column;
+  max-width: 1170px;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  margin: 0 auto;
+}
+.auto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mb-2 {
+  margin-bottom: 5rem;
+}
+.title-underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: gold;
+  margin: 0 auto;
+}
+.service {
+  color: gold;
+}
