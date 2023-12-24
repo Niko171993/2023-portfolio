@@ -4,3 +4,9 @@
 .hero-info h4 {
   color: white !important;
 }
+.main-logo {
+  color: white;
+}
+.social-icon:hover .main-logo {
+  color: gold;
+}
