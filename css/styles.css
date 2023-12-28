@@ -1015,4 +1015,11 @@ Products Page
 .prev-btn,
 .next-btn {
   background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next-btn-icon {
+  transform: translateX(5px);
 }
