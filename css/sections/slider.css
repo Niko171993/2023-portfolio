@@ -17,6 +17,8 @@
   height: 300px;
   width: 300px;
   overflow: hidden;
+  background: #222;
+  border-radius: 0.5rem;
 }
 .slide {
   position: absolute;
@@ -37,7 +39,7 @@
 }
 .slide-text {
   text-align: center;
-  color: gold;
+  color: white;
   margin-top: 1rem;
 }
 .slide.active {
@@ -52,11 +54,11 @@
 }
 .prev-btn {
   position: absolute;
-  left: 4rem;
-  bottom: 0%;
+  left: 2rem;
+  bottom: 50%;
 }
 .next-btn {
   position: absolute;
-  right: 4rem;
-  bottom: 0%;
+  right: 2rem;
+  bottom: 50%;
 }
