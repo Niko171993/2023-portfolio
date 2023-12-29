@@ -11,12 +11,13 @@ const date = document.querySelector('#date');
 // show sidebar
 navBtn.addEventListener('click', function () {
   sidebar.classList.add('show-sidebar');
-  barContainer.style.display = 'none';
+
   document.body.classList.add('overflow-hidden');
+  console.log('hi');
 });
 closeBtn.addEventListener('click', function () {
   sidebar.classList.remove('show-sidebar');
-  barContainer.style.display = 'block';
+
   document.body.classList.remove('overflow-hidden');
 });
 // set year
