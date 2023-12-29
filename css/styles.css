@@ -1023,3 +1023,8 @@ Products Page
 .next-btn-icon {
   transform: translateX(5px);
 }
+.special {
+  display: inline-block;
+  margin-top: 0rem;
+  margin-left: 3rem;
+}
