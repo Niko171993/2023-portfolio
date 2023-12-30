@@ -14,7 +14,7 @@ gsap.from('#t2', {
   scrollTrigger: {
     scrub: true,
   },
-  x: -100,
+  x: -200,
 });
 gsap.from('#t1', {
   scrollTrigger: {

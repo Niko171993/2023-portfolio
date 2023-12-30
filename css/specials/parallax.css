@@ -9,14 +9,3 @@
   width: 100%;
   pointer-events: none;
 }
-#text {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 4rem;
-}
-.sec {
-  position: relative;
-  padding: 100px;
-  background: #222;
-}
