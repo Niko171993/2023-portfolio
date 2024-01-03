@@ -34,9 +34,3 @@ gsap.from('#plants', {
   },
   x: -50,
 });
-gsap.from('#text', {
-  scrollTrigger: {
-    scrub: true,
-  },
-  x: 600,
-});
