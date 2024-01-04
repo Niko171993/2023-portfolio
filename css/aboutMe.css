@@ -1,0 +1,36 @@
+.about-me {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .about-me {
+    flex-direction: column-reverse;
+  }
+}
+.about-me-img {
+  width: 100%;
+  margin-left: 1rem;
+}
+.about-me-niko {
+  border-radius: 50%;
+  width: 300px !important;
+  height: 300px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.page-info {
+  margin-top: 3.5rem;
+}
+.info-projects {
+  display: flex;
+}
+.info-projects-left {
+  flex-basis: 30%;
+}
+.info-projects-right {
+  flex-basis: 70%;
+}
+.line-child {
+  margin-top: 1rem;
+  text-align: center;
+  margin-right: 30rem;
+}
