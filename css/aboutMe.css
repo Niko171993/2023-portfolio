@@ -1,5 +1,52 @@
+/* test */
+/* test */
+.triangle {
+  position: relative;
+}
+.forward {
+  position: relative;
+  z-index: 10;
+}
+.triangle::before,
+.triangle::after {
+  /* Changed from ::before to ::after for variety */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(
+    43,
+    72%,
+    37%
+  ); /* Set the color to #222 or any desired color */
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  z-index: 3; /* Move the triangle behind the content */
+}
+.my-education {
+  position: relative;
+}
+.my-education::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(
+    43,
+    72%,
+    37%
+  ); /* Set the color to #222 or any desired color */
+  z-index: 3; /* Move the triangle behind the content */
+  clip-path: polygon(99% 0, 100% 100%, 0 0);
+}
 .about-me {
   display: flex;
+}
+.clip {
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
 }
 @media screen and (max-width: 768px) {
   .about-me {
@@ -19,6 +66,9 @@
 }
 .page-info {
   margin-top: 3.5rem;
+}
+.gold-text {
+  color: #222;
 }
 .info-projects {
   display: flex;
