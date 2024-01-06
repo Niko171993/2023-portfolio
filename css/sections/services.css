@@ -32,4 +32,6 @@
 }
 .service {
   color: gold;
+  position: relative;
+  z-index: 50;
 }
