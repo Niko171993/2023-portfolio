@@ -445,7 +445,31 @@ Hero
 .hero-btn {
   margin-top: 1.25rem;
 }
-
+.hero-photo-gradient {
+  width: 100%;
+  height: 100%;
+}
+.hero-photo-gradient {
+  position: relative;
+}
+.hero-photo-gradient::before {
+  position: absolute;
+  background: linear-gradient(to bottom, green, gold, blue);
+  width: 0.25rem;
+  height: 95%;
+  top: 2.5rem;
+  right: -2rem;
+  content: '';
+}
+.hero-photo-gradient::after {
+  position: absolute;
+  background: linear-gradient(to right, green, gold, blue);
+  width: 95%;
+  height: 0.25rem;
+  bottom: -2rem;
+  left: 2.5rem;
+  content: '';
+}
 @media screen and (min-width: 992px) {
   .hero-img {
     display: block;
