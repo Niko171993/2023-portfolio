@@ -7,9 +7,9 @@
 :root {
   --clr-1: #052b2f;
   --clr-2: #073438;
-  --clr-3: hsl(45, 100%, 96%);
+  --clr-3: green;
   --clr-4: hsl(42, 78%, 60%);
-  --clr-5: hsl(43, 86%, 17%);
+  --clr-5: blue;
 }
 .glowing-radiance {
   width: 100%;
