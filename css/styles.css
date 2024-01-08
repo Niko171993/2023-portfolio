@@ -19,7 +19,7 @@
 @import './specials/striped.css';
 @import './specials/parallax.css';
 @import './aboutMe.css';
-
+@import './base/base.css';
 /*
 =============== 
 Fonts
@@ -797,79 +797,6 @@ Blog
 */
 .blog {
   background: var(--clr-grey-10);
-}
-.card {
-  height: 27rem;
-  position: relative;
-  /* talk later */
-  -webkit-perspective: 1500px;
-  perspective: 1500px;
-}
-.card-front {
-  background: var(--clr-white);
-}
-.card-side {
-  -webkit-transition: all 2s linear;
-  transition: all 2s linear;
-  position: absolute;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: var(--radius);
-  -webkit-transform: translate3d(0, 0, 0);
-  visibility: visible;
-}
-.card-back {
-  background: var(--clr-primary-10);
-  display: grid;
-  place-items: center;
-  -webkit-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
-}
-.card:hover .card-front {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-}
-
-.card:hover .card-back {
-  -webkit-transform: rotateY(0);
-  transform: rotateY(0);
-}
-/* rest of the styles */
-.card-info {
-  padding: 1rem 1.5rem;
-}
-.card-front img {
-  height: 13rem;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: center center;
-  object-position: center center;
-  border-top-left-radius: var(--radius);
-  border-top-right-radius: var(--radius);
-}
-.card-footer img {
-  width: 2rem;
-  height: 2rem;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: center center;
-  object-position: center center;
-  border-radius: 50%;
-}
-.card-footer {
-  display: grid;
-  grid-template-columns: auto 1fr;
-}
-.card-footer p {
-  font-size: 0.85rem;
-  color: var(--clr-primary-5);
-  justify-self: end;
-  margin-bottom: 0;
-  text-transform: uppercase;
 }
 .blog-center {
   display: grid;

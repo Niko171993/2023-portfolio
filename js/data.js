@@ -2,12 +2,12 @@ export const slides = [
   {
     id: 1,
     name: 'HTML',
-    img: '../images/for-slide/html.png',
+    img: '../images/for-slide/more/html5.svg',
   },
   {
     id: 2,
     name: 'CSS',
-    img: '../images/for-slide/css.png',
+    img: '../images/for-slide/more/css.svg',
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ export const slides = [
   {
     id: 5,
     name: 'JavaScript',
-    img: '../images/for-slide/javascript.avif',
+    img: '../images/for-slide/more/javascript.svg',
   },
   {
     id: 6,
@@ -32,7 +32,7 @@ export const slides = [
   {
     id: 7,
     name: 'React',
-    img: '../images/for-slide/react.jpg',
+    img: '../images/for-slide/more/react.svg',
   },
   {
     id: 8,
