@@ -117,3 +117,6 @@
 .info-projects-right {
   margin-right: 2rem;
 }
+.text-dark {
+  color: hsl(43, 86%, 17%);
+}
