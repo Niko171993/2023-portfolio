@@ -1017,3 +1017,6 @@ Products Page
     red 100%
   ) !important;
 }
+.p-2 {
+  padding-inline: 0.5rem;
+}
