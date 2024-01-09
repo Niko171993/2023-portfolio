@@ -922,8 +922,8 @@ Products Page
   padding: 2rem 1.5rem;
 }
 .project-footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: flex-end;
   color: var(--clr-primary-5);
 }
 .project-footer a {
